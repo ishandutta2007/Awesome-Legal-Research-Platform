@@ -1,5 +1,7 @@
 # Awesome-Legal-Research-Platform
 
+![Awesome Legal Research Platform Banner](assets/banner.svg)
+
 ## ⚖️ Top Legal Research Platforms & Open-Source Legal AI
 
 > A curated list of **legal research platforms, AI legal research assistants, legal analytics systems, litigation intelligence platforms, legal databases and open-source software** for researching case law, statutes, regulations, dockets, citations and legal documents.
