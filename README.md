@@ -100,29 +100,92 @@ Therefore, an open-source Lexis/Westlaw alternative generally requires **both op
 
 ---
 
+![Awesome Legal Research Platform](./assets/banner.svg)
+
+# ⚖️ Awesome Legal Research Platform & Open-Source Legal AI Ecosystem
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Legal-Research-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Legal-Research-Platform?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Legal-Research-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Legal-Research-Platform?style=social" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+## ⚖️ Top Legal Research Platforms, AI Legal Assistants & Open-Source Legal Tech
+
+> 📚 A comprehensive, SEO-optimized curated list of **legal research platforms, AI legal research assistants, legal analytics systems, litigation intelligence tools, open legal databases, and open-source software** for indexing and searching case law, statutes, regulations, court dockets, legal citations, and legal documents.
+
+Modern legal research engines and AI legal technology platforms combine:
+
+* 🔍 **Case Law Search & Retrieval**: Semantic, vector, and Boolean keyword search over judicial opinions
+* 📜 **Statutory & Regulatory Research**: Code of Federal Regulations (eCFR), U.S. Code, state statutes, and administrative rules
+* 🧾 **Legal Citations & Citator Engine**: Shepardizing / KeyCite-style citator graphs and treatment analysis
+* 👨‍⚖️ **Docket & Litigation Intelligence**: PACER dockets, filings, party histories, and judicial analytics
+* 📊 **Legal Analytics & Outcomes**: Judge ruling tendencies, attorney win rates, firm litigation trends, and damages prediction
+* 📄 **Document AI & Contract Analysis**: Parsing legal PDFs, brief extraction, clause extraction, and document review
+* 🤖 **AI-Assisted Legal Research & Drafting**: Retrieval-Augmented Generation (RAG) over legal corpora with verifiable citations
+* 🧠 **Legal NLP & Named Entity Recognition**: Automated extraction of judges, courts, legal citations, statutes, and parties
+
+This repository focuses on providing an exhaustive directory of both commercial platforms (such as **Lexis+ AI, Westlaw Precision AI, CoCounsel, Harvey AI, Bloomberg Law, vLex Vincent AI, Paxton AI, Descrybe.ai, Lex Machina, and Legora**) and the **open-source software and open-data infrastructure** required to build self-hosted legal AI solutions.
+
+```text
+Open Legal Data + Vector/BM25 Search + Citation Graphs + Document AI + Legal NLP + RAG + Legal LLM = Open Legal Research Platform
+```
+
+---
+
+## 📑 Table of Contents
+
+* [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+* [🌍 Open-Source Ecosystem](#-open-source-ecosystem)
+* [⚖️ Open Legal Research Platforms](#️-open-legal-research-platforms)
+* [📚 Open Legal Data & Case Law](#-open-legal-data--case-law)
+* [🔎 Open-Source Legal Search Engines](#-open-source-legal-search-engines)
+* [🕸️ Open-Source Court Data & Scraping](#️-open-source-court-data--scraping)
+* [🧾 Open-Source Citation Analysis](#-open-source-citation-analysis)
+* [🧠 Open-Source Legal NLP](#-open-source-legal-nlp)
+* [⚖️ Legal Named Entity Recognition](#️-legal-named-entity-recognition)
+* [🤖 Open-Source Legal AI & LLMs](#-open-source-legal-ai--llms)
+* [📄 Open-Source Legal Document AI](#-open-source-legal-document-ai)
+* [🗂️ Open-Source Legal Document Management](#️-open-source-legal-document-management)
+* [📊 Open-Source Legal Analytics](#-open-source-legal-analytics)
+* [👨‍⚖️ Open-Source Court & Litigation Intelligence](#️-open-source-court--litigation-intelligence)
+* [🧪 Open Legal AI Datasets & Benchmarks](#-open-legal-ai-datasets--benchmarks)
+* [🧩 Commercial Platform → Open-Source Equivalent](#-commercial-platform--open-source-equivalent)
+* [⭐ The Core Open-Source Projects](#-the-core-open-source-projects)
+* [🏆 Recommended Open-Source Reference Architecture](#-recommended-open-source-reference-architecture)
+* [📈 Star History](#-star-history)
+* [☕ Support & Sponsorship](#-support--sponsorship)
+* [🤝 Contributing](#-contributing)
+* [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
 # ☁️ SaaS/Hosted Platforms
 
-Commercial legal research platforms combine proprietary legal databases, search infrastructure, editorial curation, analytics and increasingly generative AI.
+The global LegalTech and legal research market size is estimated at approximately **$12.5 Billion to $14.2 Billion** and is projected to expand significantly driven by generative AI adoption. The commercial legal research sector is **highly concentrated** around legacy legal publisher duopolies (Thomson Reuters and RELX/LexisNexis), creating a "winner-take-most" market structure supported by massive proprietary legal data moats and high enterprise switching costs, while emerging AI startups compete in a fast-consolidating surrounding ecosystem.
 
-| Platform                                                                               | Company         | Primary Focus              | Key Capabilities                                                           |
-| -------------------------------------------------------------------------------------- | --------------- | -------------------------- | -------------------------------------------------------------------------- |
-| [Lexis+ AI](https://www.lexisnexis.com/)                                               | LexisNexis      | Legal research + AI        | Legal research, generative AI, citations, drafting and document analysis   |
-| [Westlaw Precision AI](https://legal.thomsonreuters.com/en/products/westlaw-precision) | Thomson Reuters | Legal research + AI        | Case law, statutes, KeyCite, AI research and litigation analysis           |
-| [vLex](https://vlex.com/)                                                              | vLex            | Global legal research      | Global legal content, AI research and legal intelligence                   |
-| [Fastcase](https://www.fastcase.com/)                                                  | Fastcase        | Legal research             | Case law, statutes, legal research and citation tools                      |
-| [CoCounsel](https://www.cocounsel.com/)                                                | Thomson Reuters | Legal AI assistant         | Research, document review, analysis, drafting and legal workflows          |
-| [Harvey](https://www.harvey.ai/)                                                       | Harvey          | Enterprise legal AI        | Legal research, analysis, drafting and workflow automation                 |
-| [Bloomberg Law](https://pro.bloomberglaw.com/)                                         | Bloomberg       | Legal research + analytics | Legal research, dockets, litigation analytics and AI                       |
-| [Descrybe.ai](https://www.descrybe.ai/)                                                | Descrybe        | AI legal research          | Natural-language legal research and legal intelligence                     |
-| [Paxton AI](https://www.paxton.ai/)                                                    | Paxton          | Legal AI                   | Legal research, drafting, document analysis and workflows                  |
-| [Lex Machina](https://lexmachina.com/)                                                 | LexisNexis      | Litigation analytics       | Judges, attorneys, parties, courts, case outcomes and litigation analytics |
-| [Casetext](https://casetext.com/)                                                      | Thomson Reuters | Legal research / AI        | AI-assisted legal research and document analysis                           |
-| [Practical Law](https://legal.thomsonreuters.com/en/products/practical-law)            | Thomson Reuters | Legal know-how             | Practice notes, clauses, checklists and legal guidance                     |
-| [Fastcase](https://www.fastcase.com/)                                                  | Fastcase        | Case law research          | Case law, statutes, citation analysis                                      |
-| [Legora](https://legora.com/)                                                          | Legora          | AI legal work              | Legal research, drafting and workflow automation                           |
-| [Clio](https://www.clio.com/)                                                          | Clio            | Legal practice management  | Practice management, documents, billing and workflows                      |
-| [vLex Vincent AI](https://vlex.com/)                                                   | vLex            | Legal AI                   | AI-powered research over legal content                                     |
-| [Bloomberg Law AI](https://pro.bloomberglaw.com/)                                      | Bloomberg       | Legal AI                   | AI research and legal analysis                                             |
+The table below lists leading commercial legal research and legal AI platforms, sorted by **Company Size / Valuation (Descending)**:
+
+| Platform | Company | Market Size / Valuation / Revenue | Primary Focus | Starting Price | Free Tier / Trial Limit | Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Bloomberg Law](https://pro.bloomberglaw.com/) | Bloomberg L.P. | ~$12.5B+ (Company Revenue) | Legal research & analytics | $450 / month | 7-day free trial (enterprise review upon approval) | Legal research, dockets, litigation analytics, regulatory tracking, and generative AI research |
+| [Westlaw Precision AI](https://legal.thomsonreuters.com/en/products/westlaw-precision) | Thomson Reuters | ~$38B+ (Market Cap) | Legal research & AI | $205 / month | 7-day free trial (restricted firm access) | Primary case law, statutes, KeyCite citator, AI research assistant, and litigation analytics |
+| [CoCounsel](https://www.cocounsel.com/) | Thomson Reuters | ~$38B+ (Market Cap / Acquired Casetext for $650M) | Legal AI assistant | $250 / user / month | 7-day demo trial | AI research, document review, deposition analysis, contract audit, and workflow automation |
+| [Practical Law](https://legal.thomsonreuters.com/en/products/practical-law) | Thomson Reuters | ~$38B+ (Market Cap) | Legal know-how & guidance | $180 / user / month | 7-day free trial | Practice notes, standard clauses, checklists, drafting templates, and practice guidance |
+| [Casetext](https://casetext.com/) | Thomson Reuters | ~$38B+ (Market Cap) | Legal research & AI | $110 / month | 14-day free trial (full access with search limit) | CARA AI document search, case law, statutory databases, and citation extraction |
+| [Lexis+ AI](https://www.lexisnexis.com/) | RELX / LexisNexis | ~$70B+ (Parent RELX Market Cap) | Legal research & AI | $175 / month | 7-day enterprise trial | Generative AI legal research, Shepard's Citations, legal drafting, and brief analysis |
+| [Lex Machina](https://lexmachina.com/) | RELX / LexisNexis | ~$70B+ (Parent RELX Market Cap) | Litigation analytics | $400 / month | 14-day demo access (pre-scheduled enterprise preview) | Judicial analytics, attorney win rates, party analytics, timing predictions, and damages analytics |
+| [Clio](https://www.clio.com/) | Clio | $3.0B (Valuation / Series F) | Legal practice management | $49 / user / month | 7-day free trial (unlimited feature access) | Case management, legal document storage, billing, court calendar sync, and client portal |
+| [Harvey](https://www.harvey.ai/) | Harvey AI | $1.5B - $3.0B (Valuation) | Enterprise legal AI | $1,000 / month (Enterprise min package) | 14-day enterprise pilot (requires waitlist approval) | Custom legal domain models, contract analysis, regulatory compliance, and multi-jurisdictional research |
+| [Legora](https://legora.com/) | Legora | ~$100M+ (Valuation) | AI legal work | $89 / user / month | 14-day free trial (50 query credits) | AI-assisted research, contract review, document drafting, and workflow automation |
+| [Fastcase](https://www.fastcase.com/) | vLex Group | ~$300M+ (vLex Group Combined) | Legal research | $65 / month | 7-day free trial (full case search access) | Comprehensive case law, statutory research, Docket Alarm integration, and legal citator |
+| [vLex](https://vlex.com/) | vLex | ~$300M+ (Valuation) | Global legal research | $79 / month | 7-day free trial | Multilingual global legal database, primary law, international treaties, and legal analytics |
+| [vLex Vincent AI](https://vlex.com/) | vLex | ~$300M+ (Valuation) | Legal AI research | $149 / month | 7-day trial (limited AI queries) | AI-powered retrieval over legal corpora, argument drafting, and headnote synthesis |
+| [Paxton AI](https://www.paxton.ai/) | Paxton AI | ~$20M - $50M (Valuation) | Legal AI research & drafting | $99 / user / month | 14-day free trial (25 free AI queries included) | Real-time legal research, citation validation, document analysis, and regulatory tracking |
+| [Descrybe.ai](https://www.descrybe.ai/) | Descrybe | ~$5M - $15M (Valuation) | AI legal research | Free basic tier ($0/mo with unlimited public search) / $29 Premium | Free tier available forever (unlimited searches across US case law summaries) | Natural language search over US legal opinions, plain-english summaries, and open legal access |
+
+---
 
 ---
 
@@ -184,16 +247,17 @@ It provides:
 
 CourtListener currently reports more than **9 million decisions from over 2,000 courts** and provides programmatic access through APIs and other data-access mechanisms.
 
-| Project                                                                                | Description                                  |
-| -------------------------------------------------------------------------------------- | -------------------------------------------- |
-| [CourtListener](https://github.com/freelawproject/courtlistener)                       | Open legal research and court-data platform  |
-| [RECAP](https://github.com/freelawproject/recap)                                       | Open archive of PACER documents and metadata |
-| [Juriscraper](https://github.com/freelawproject/juriscraper)                           | Court website scraping framework             |
-| [eyecite](https://github.com/freelawproject/eyecite)                                   | Legal citation extraction and parsing        |
-| [Doctor](https://github.com/freelawproject/doctor)                                     | Document processing service                  |
-| [CourtListener API Client](https://github.com/freelawproject/courtlistener-api-client) | Python API / MCP tooling                     |
-| [RECAP Browser Extension](https://github.com/freelawproject/recap-chrome)              | Browser-based PACER/RECAP integration        |
-| [Blackletter](https://github.com/freelawproject/blackletter)                           | Legal document processing                    |
+| Project | Stars | Description |
+| :--- | :--- | :--- |
+| [CourtListener](https://github.com/freelawproject/courtlistener) | [![Stars](https://img.shields.io/github/stars/freelawproject/courtlistener?style=social&color=white)](https://github.com/freelawproject/courtlistener/stargazers) | Open legal research and court-data platform |
+| [RECAP Browser Extension](https://github.com/freelawproject/recap-chrome) | [![Stars](https://img.shields.io/github/stars/freelawproject/recap-chrome?style=social&color=white)](https://github.com/freelawproject/recap-chrome/stargazers) | Browser-based PACER/RECAP integration extension |
+| [Juriscraper](https://github.com/freelawproject/juriscraper) | [![Stars](https://img.shields.io/github/stars/freelawproject/juriscraper?style=social&color=white)](https://github.com/freelawproject/juriscraper/stargazers) | Court website scraping framework |
+| [eyecite](https://github.com/freelawproject/eyecite) | [![Stars](https://img.shields.io/github/stars/freelawproject/eyecite?style=social&color=white)](https://github.com/freelawproject/eyecite/stargazers) | Legal citation extraction and parsing engine |
+| [Open Judicial Data Platform](https://github.com/openlegaldata/oldp) | [![Stars](https://img.shields.io/github/stars/openlegaldata/oldp?style=social&color=white)](https://github.com/openlegaldata/oldp/stargazers) | Open legal decision processing platform |
+| [RECAP](https://github.com/freelawproject/recap) | [![Stars](https://img.shields.io/github/stars/freelawproject/recap?style=social&color=white)](https://github.com/freelawproject/recap/stargazers) | Open archive of PACER documents and metadata |
+| [Doctor](https://github.com/freelawproject/doctor) | [![Stars](https://img.shields.io/github/stars/freelawproject/doctor?style=social&color=white)](https://github.com/freelawproject/doctor/stargazers) | Legal document conversion and extraction service |
+| [Blackletter](https://github.com/freelawproject/blackletter) | [![Stars](https://img.shields.io/github/stars/freelawproject/blackletter?style=social&color=white)](https://github.com/freelawproject/blackletter/stargazers) | Legal document indexing and analysis engine |
+| [CourtListener API Client](https://github.com/freelawproject/courtlistener-api-client) | [![Stars](https://img.shields.io/github/stars/freelawproject/courtlistener-api-client?style=social&color=white)](https://github.com/freelawproject/courtlistener-api-client/stargazers) | Python API & MCP client for CourtListener |
 
 Free Law Project describes its mission as providing free access to primary legal materials and developing technology for legal research and legal corpora.
 
@@ -246,19 +310,19 @@ Citation Graph
 Legal Search Engine
 ```
 
-| Project                                                        | Role                           |
-| -------------------------------------------------------------- | ------------------------------ |
-| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | Search engine                  |
-| [Elasticsearch](https://github.com/elastic/elasticsearch)      | Search engine                  |
-| [Apache Solr](https://github.com/apache/solr)                  | Search platform                |
-| [Apache Lucene](https://github.com/apache/lucene)              | Search engine library          |
-| [Vespa](https://github.com/vespa-engine/vespa)                 | Large-scale search and ranking |
-| [Typesense](https://github.com/typesense/typesense)            | Fast search engine             |
-| [Meilisearch](https://github.com/meilisearch/meilisearch)      | Search engine                  |
-| [Qdrant](https://github.com/qdrant/qdrant)                     | Vector search                  |
-| [Milvus](https://github.com/milvus-io/milvus)                  | Vector database                |
-| [Weaviate](https://github.com/weaviate/weaviate)               | Vector database                |
-| [FAISS](https://github.com/facebookresearch/faiss)             | Vector similarity search       |
+| Project | Stars | Role |
+| :--- | :--- | :--- |
+| [Elasticsearch](https://github.com/elastic/elasticsearch) | [![Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers) | Full-text and vector search engine |
+| [FAISS](https://github.com/facebookresearch/faiss) | [![Stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers) | Vector similarity search engine library |
+| [Meilisearch](https://github.com/meilisearch/meilisearch) | [![Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) | Fast open-source search engine |
+| [Milvus](https://github.com/milvus-io/milvus) | [![Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers) | Cloud-native vector database for embedding search |
+| [Qdrant](https://github.com/qdrant/qdrant) | [![Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) | High-performance vector search engine |
+| [Weaviate](https://github.com/weaviate/weaviate) | [![Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers) | AI-first vector database |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Distributed search and analytics engine |
+| [Typesense](https://github.com/typesense/typesense) | [![Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers) | Fast, typo-tolerant search engine |
+| [Apache Lucene](https://github.com/apache/lucene) | [![Stars](https://img.shields.io/github/stars/apache/lucene?style=social&color=white)](https://github.com/apache/lucene/stargazers) | Core indexing and search engine library |
+| [Vespa](https://github.com/vespa-engine/vespa) | [![Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers) | Large-scale stateful search and ranking platform |
+| [Apache Solr](https://github.com/apache/solr) | [![Stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers) | Enterprise search platform |
 
 A production legal research engine can combine:
 
@@ -284,15 +348,15 @@ Court data often comes from heterogeneous government websites.
 
 The Free Law Project ecosystem includes **Juriscraper**, which provides tooling for extracting court metadata from U.S. court websites.
 
-| Project                                                          | Description                 |
-| ---------------------------------------------------------------- | --------------------------- |
-| [Juriscraper](https://github.com/freelawproject/juriscraper)     | Scraping court websites     |
-| [RECAP](https://github.com/freelawproject/recap)                 | PACER data collection       |
-| [RECAP Chrome](https://github.com/freelawproject/recap-chrome)   | Browser extension for RECAP |
-| [CourtListener](https://github.com/freelawproject/courtlistener) | Court-data aggregation      |
-| [Scrapy](https://github.com/scrapy/scrapy)                       | General web scraping        |
-| [Playwright](https://github.com/microsoft/playwright)            | Browser automation          |
-| [Selenium](https://github.com/SeleniumHQ/selenium)               | Browser automation          |
+| Project | Stars | Description |
+| :--- | :--- | :--- |
+| [Playwright](https://github.com/microsoft/playwright) | [![Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | Reliable end-to-end testing and web scraping browser automation |
+| [Scrapy](https://github.com/scrapy/scrapy) | [![Stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers) | Fast high-level web crawling and web scraping framework |
+| [Selenium](https://github.com/SeleniumHQ/selenium) | [![Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers) | Browser automation framework for web scrapers |
+| [CourtListener](https://github.com/freelawproject/courtlistener) | [![Stars](https://img.shields.io/github/stars/freelawproject/courtlistener?style=social&color=white)](https://github.com/freelawproject/courtlistener/stargazers) | Primary court data and docket collection platform |
+| [RECAP Browser Extension](https://github.com/freelawproject/recap-chrome) | [![Stars](https://img.shields.io/github/stars/freelawproject/recap-chrome?style=social&color=white)](https://github.com/freelawproject/recap-chrome/stargazers) | Browser extension for PACER docket harvesting |
+| [Juriscraper](https://github.com/freelawproject/juriscraper) | [![Stars](https://img.shields.io/github/stars/freelawproject/juriscraper?style=social&color=white)](https://github.com/freelawproject/juriscraper/stargazers) | Scraping framework for US federal and state court websites |
+| [RECAP](https://github.com/freelawproject/recap) | [![Stars](https://img.shields.io/github/stars/freelawproject/recap?style=social&color=white)](https://github.com/freelawproject/recap/stargazers) | Federal PACER docket and document scraper system |
 
 ---
 
@@ -322,15 +386,15 @@ This can be converted into a graph:
              Case D  Case E
 ```
 
-| Project                                                          | Capability                        |
-| ---------------------------------------------------------------- | --------------------------------- |
-| [eyecite](https://github.com/freelawproject/eyecite)             | Citation extraction               |
-| [CourtListener](https://github.com/freelawproject/courtlistener) | Citation graph and legal research |
-| [Juriscraper](https://github.com/freelawproject/juriscraper)     | Court metadata                    |
-| [spaCy](https://github.com/explosion/spaCy)                      | NLP pipeline                      |
-| [NetworkX](https://github.com/networkx/networkx)                 | Citation graph analysis           |
-| [Neo4j](https://github.com/neo4j/neo4j)                          | Graph database                    |
-| [Apache AGE](https://github.com/apache/age)                      | Graph extension for PostgreSQL    |
+| Project | Stars | Capability |
+| :--- | :--- | :--- |
+| [spaCy](https://github.com/explosion/spaCy) | [![Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers) | Industrial-strength NLP pipeline and NER |
+| [Neo4j](https://github.com/neo4j/neo4j) | [![Stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers) | Graph database engine for legal citation graphs |
+| [NetworkX](https://github.com/networkx/networkx) | [![Stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Network graph analysis for precedent citations |
+| [Apache AGE](https://github.com/apache/age) | [![Stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers) | Graph database extension for PostgreSQL |
+| [CourtListener](https://github.com/freelawproject/courtlistener) | [![Stars](https://img.shields.io/github/stars/freelawproject/courtlistener?style=social&color=white)](https://github.com/freelawproject/courtlistener/stargazers) | Precedent citation graph and legal research database |
+| [eyecite](https://github.com/freelawproject/eyecite) | [![Stars](https://img.shields.io/github/stars/freelawproject/eyecite?style=social&color=white)](https://github.com/freelawproject/eyecite/stargazers) | Open-source legal citation extraction & parsing engine |
+| [Juriscraper](https://github.com/freelawproject/juriscraper) | [![Stars](https://img.shields.io/github/stars/freelawproject/juriscraper?style=social&color=white)](https://github.com/freelawproject/juriscraper/stargazers) | Court metadata and citation extraction tooling |
 
 CourtListener's API includes citation-related functionality, including citation lookup and graph analysis.
 
@@ -355,17 +419,17 @@ Legal research requires specialized NLP for:
 * Contracts
 * Clauses
 
-| Project                                                                  | Description                            |
-| ------------------------------------------------------------------------ | -------------------------------------- |
-| [LexNLP](https://github.com/LexPredict/lexpredict-lexnlp)                | NLP tools for legal and financial text |
-| [eyecite](https://github.com/freelawproject/eyecite)                     | Legal citation extraction              |
-| [spaCy](https://github.com/explosion/spaCy)                              | NLP framework                          |
-| [Hugging Face Transformers](https://github.com/huggingface/transformers) | Transformer models                     |
-| [Apache OpenNLP](https://github.com/apache/opennlp)                      | NLP toolkit                            |
-| [Stanza](https://github.com/stanfordnlp/stanza)                          | NLP pipeline                           |
-| [Flair](https://github.com/flairNLP/flair)                               | NLP framework                          |
-| [AllenNLP](https://github.com/allenai/allennlp)                          | NLP research framework                 |
-| [Presidio](https://github.com/microsoft/presidio)                        | PII detection and anonymization        |
+| Project | Stars | Description |
+| :--- | :--- | :--- |
+| [Hugging Face Transformers](https://github.com/huggingface/transformers) | [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) | Core deep learning NLP and transformer pipeline engine |
+| [spaCy](https://github.com/explosion/spaCy) | [![Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers) | Industrial NLP framework for entity parsing & tokenization |
+| [Stanza](https://github.com/stanfordnlp/stanza) | [![Stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social&color=white)](https://github.com/stanfordnlp/stanza/stargazers) | Stanford NLP pipeline for multilingual parsing |
+| [Presidio](https://github.com/microsoft/presidio) | [![Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers) | PII detection and redaction toolkit for legal filings |
+| [Flair](https://github.com/flairNLP/flair) | [![Stars](https://img.shields.io/github/stars/flairNLP/flair?style=social&color=white)](https://github.com/flairNLP/flair/stargazers) | State-of-the-art NLP framework for sequence labeling |
+| [AllenNLP](https://github.com/allenai/allennlp) | [![Stars](https://img.shields.io/github/stars/allenai/allennlp?style=social&color=white)](https://github.com/allenai/allennlp/stargazers) | Open NLP research toolkit built on PyTorch |
+| [Apache OpenNLP](https://github.com/apache/opennlp) | [![Stars](https://img.shields.io/github/stars/apache/opennlp?style=social&color=white)](https://github.com/apache/opennlp/stargazers) | Machine learning based toolkit for processing text |
+| [eyecite](https://github.com/freelawproject/eyecite) | [![Stars](https://img.shields.io/github/stars/freelawproject/eyecite?style=social&color=white)](https://github.com/freelawproject/eyecite/stargazers) | Legal citation extraction and parsing engine |
+| [LexNLP](https://github.com/LexPredict/lexpredict-lexnlp) | [![Stars](https://img.shields.io/github/stars/LexPredict/lexpredict-lexnlp?style=social&color=white)](https://github.com/LexPredict/lexpredict-lexnlp/stargazers) | NLP and ML tools for legal and financial text |
 
 ---
 
@@ -418,17 +482,15 @@ Useful technologies:
 
 Legal research systems can combine open legal data with general-purpose or legal-specialized language models.
 
-| Model / Project                                                        | Description                         |
-| ---------------------------------------------------------------------- | ----------------------------------- |
-| [Legal-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased)   | BERT adapted to legal text          |
-| [CaseHOLD](https://github.com/reglab/casehold)                         | Legal reasoning benchmark / dataset |
-| [LegalBench](https://github.com/HazyResearch/legalbench)               | Legal reasoning benchmark           |
-| [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law) | Large legal text dataset            |
-| [SaulLM](https://huggingface.co/Equall/SaulLM-7B-Instruct)             | Legal language model family         |
-| [LegalLAMA](https://github.com/JoelNiklaus/LegalLAMA)                  | Legal language modeling             |
-| [LexGLUE](https://github.com/coastalcph/lex-glue)                      | Legal NLP benchmark                 |
-| [Blackstone](https://github.com/ICLRandBlackstone/Blackstone)          | Legal NLP toolkit                   |
-| [Legal-BERT](https://github.com/coastalcph/lex-glue)                   | Legal-domain transformer ecosystem  |
+| Model / Project | Stars | Description |
+| :--- | :--- | :--- |
+| [LegalBench](https://github.com/HazyResearch/legalbench) | [![Stars](https://img.shields.io/github/stars/HazyResearch/legalbench?style=social&color=white)](https://github.com/HazyResearch/legalbench/stargazers) | Collaborative legal reasoning benchmark |
+| [CaseHOLD](https://github.com/reglab/casehold) | [![Stars](https://img.shields.io/github/stars/reglab/casehold?style=social&color=white)](https://github.com/reglab/casehold/stargazers) | Judicial reasoning and legal holding dataset |
+| [LexGLUE](https://github.com/coastalcph/lex-glue) | [![Stars](https://img.shields.io/github/stars/coastalcph/lex-glue?style=social&color=white)](https://github.com/coastalcph/lex-glue/stargazers) | Legal language understanding evaluation benchmark |
+| [Blackstone](https://github.com/ICLRandBlackstone/Blackstone) | [![Stars](https://img.shields.io/github/stars/ICLRandBlackstone/Blackstone?style=social&color=white)](https://github.com/ICLRandBlackstone/Blackstone/stargazers) | Legal NLP library for English common law text |
+| [LegalLAMA](https://github.com/JoelNiklaus/LegalLAMA) | [![Stars](https://img.shields.io/github/stars/JoelNiklaus/LegalLAMA?style=social&color=white)](https://github.com/JoelNiklaus/LegalLAMA/stargazers) | Probe for legal knowledge in language models |
+| [SaulLM](https://huggingface.co/Equall/SaulLM-7B-Instruct) | N/A | Legal domain specific language model family |
+| [Legal-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | N/A | BERT model pre-trained on legal text corpora |
 
 ---
 
@@ -447,31 +509,31 @@ Legal research platforms frequently need to process:
 * PDFs
 * Scanned filings
 
-| Project                                                         | Role                        |
-| --------------------------------------------------------------- | --------------------------- |
-| [Docling](https://github.com/docling-project/docling)           | Document parsing            |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)          | OCR and document AI         |
-| [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)                | OCR for PDFs                |
-| [PyMuPDF](https://github.com/pymupdf/PyMuPDF)                   | PDF processing              |
-| [Apache Tika](https://github.com/apache/tika)                   | Document extraction         |
-| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Document parsing            |
-| [Marker](https://github.com/datalab-to/marker)                  | PDF → Markdown              |
-| [MinerU](https://github.com/opendatalab/MinerU)                 | Document parsing            |
-| [GROBID](https://github.com/kermitt2/grobid)                    | Scientific/document parsing |
-| [Tesseract](https://github.com/tesseract-ocr/tesseract)         | OCR                         |
+| Project | Stars | Role |
+| :--- | :--- | :--- |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | [![Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social&color=white)](https://github.com/PaddlePaddle/PaddleOCR/stargazers) | Multilingual OCR and document layout analysis |
+| [Tesseract](https://github.com/tesseract-ocr/tesseract) | [![Stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers) | Optical character recognition engine |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | [![Stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers) | Open-source pre-processing for legal document AI |
+| [Marker](https://github.com/datalab-to/marker) | [![Stars](https://img.shields.io/github/stars/datalab-to/marker?style=social&color=white)](https://github.com/datalab-to/marker/stargazers) | Fast PDF to markdown conversion for LLM input |
+| [Docling](https://github.com/docling-project/docling) | [![Stars](https://img.shields.io/github/stars/docling-project/docling?style=social&color=white)](https://github.com/docling-project/docling/stargazers) | Advanced document parsing and structure extraction |
+| [MinerU](https://github.com/opendatalab/MinerU) | [![Stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=social&color=white)](https://github.com/opendatalab/MinerU/stargazers) | High-precision PDF layout and content extractor |
+| [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | [![Stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers) | High performance PDF processing library |
+| [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | [![Stars](https://img.shields.io/github/stars/ocrmypdf/OCRmyPDF?style=social&color=white)](https://github.com/ocrmypdf/OCRmyPDF/stargazers) | OCR text layer generator for scanned court PDFs |
+| [GROBID](https://github.com/kermitt2/grobid) | [![Stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white)](https://github.com/kermitt2/grobid/stargazers) | Legal and technical document parsing tool |
+| [Apache Tika](https://github.com/apache/tika) | [![Stars](https://img.shields.io/github/stars/apache/tika?style=social&color=white)](https://github.com/apache/tika/stargazers) | Content detection and text extraction toolkit |
 
 ---
 
 # 🗂️ Open-Source Legal Document Management
 
-| Project                                                                   | Description                     |
-| ------------------------------------------------------------------------- | ------------------------------- |
-| [OpenKM](https://github.com/openkm/document-management-system)            | Document management             |
-| [Mayan EDMS](https://github.com/mayan-edms/Mayan-EDMS)                    | Open-source document management |
-| [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)           | Document management             |
-| [Nextcloud](https://github.com/nextcloud/server)                          | File and document collaboration |
-| [Docspell](https://github.com/eikek/docspell)                             | Document organizer              |
-| [Alfresco Community](https://github.com/Alfresco/alfresco-community-repo) | Enterprise content management   |
+| Project | Stars | Description |
+| :--- | :--- | :--- |
+| [Nextcloud](https://github.com/nextcloud/server) | [![Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | File storage, sharing, and document collaboration platform |
+| [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | [![Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers) | Document indexing, OCR, and search management system |
+| [Mayan EDMS](https://github.com/mayan-edms/Mayan-EDMS) | [![Stars](https://img.shields.io/github/stars/mayan-edms/Mayan-EDMS?style=social&color=white)](https://github.com/mayan-edms/Mayan-EDMS/stargazers) | Enterprise document management system with OCR and workflows |
+| [Docspell](https://github.com/eikek/docspell) | [![Stars](https://img.shields.io/github/stars/eikek/docspell?style=social&color=white)](https://github.com/eikek/docspell/stargazers) | Automatic document organizer and indexer |
+| [Alfresco Community](https://github.com/Alfresco/alfresco-community-repo) | [![Stars](https://img.shields.io/github/stars/Alfresco/alfresco-community-repo?style=social&color=white)](https://github.com/Alfresco/alfresco-community-repo/stargazers) | Enterprise content repository and legal document lifecycle |
+| [OpenKM](https://github.com/openkm/document-management-system) | [![Stars](https://img.shields.io/github/stars/openkm/document-management-system?style=social&color=white)](https://github.com/openkm/document-management-system/stargazers) | Electronic document management system for law practices |
 
 These can provide the document repository layer underneath a legal research or legal AI system.
 
@@ -1795,6 +1857,31 @@ For a serious self-hosted legal research platform:
 
 ---
 
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Legal-Research-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Legal-Research-Platform&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Sponsorship
+
+Thank you for visiting and using **Awesome-Legal-Research-Platform**! 💖
+
+If you find this curated legal AI & open-source legal tech directory helpful for your research, legal engineering projects, or software architecture, please consider showing your support:
+
+* ⭐ **Star** this repository to help others discover it on GitHub.
+* 🔀 **Fork** and contribute new legal data, NLP models, or research tools.
+* 📢 **Share** with colleagues, legal tech developers, and research communities.
+* ☕ **Sponsor / Buy Me a Coffee**: Support ongoing open-source curation and development via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-ishandutta2007-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+
+---
+
 # 🤝 Contributing
 
 Contributions are welcome!
@@ -1891,4 +1978,5 @@ consider giving this repository a ⭐ **Star** and contributing new projects.
 ---
 
 **Last updated: September 2026**
+
 
