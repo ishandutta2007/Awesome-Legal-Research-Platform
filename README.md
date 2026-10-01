@@ -186,6 +186,7 @@ The table below lists leading commercial legal research and legal AI platforms, 
 | [vLex Vincent AI](https://vlex.com/) | vLex | ~$300M+ (Valuation) | Legal AI research | $149 / month | 7-day trial (limited AI queries) | AI-powered retrieval over legal corpora, argument drafting, and headnote synthesis |
 | [Paxton AI](https://www.paxton.ai/) | Paxton AI | ~$20M - $50M (Valuation) | Legal AI research & drafting | $99 / user / month | 14-day free trial (25 free AI queries included) | Real-time legal research, citation validation, document analysis, and regulatory tracking |
 | [Descrybe.ai](https://www.descrybe.ai/) | Descrybe | ~$5M - $15M (Valuation) | AI legal research | Free basic tier ($0/mo with unlimited public search) / $29 Premium | Free tier available forever (unlimited searches across US case law summaries) | Natural language search over US legal opinions, plain-english summaries, and open legal access |
+| [Court Rules](https://www.courtrules.app/) | Court Rules | Independent (bootstrapped) | Court rules & filing compliance | Free tier ($0 with a self-serve API key) / paid API plans | Free tier available forever (API key from the console dashboard) | U.S. federal court rules, local rules, judge standing orders, court holiday calendars, a filing deadline calculator, a public API and an MCP server. Commercial software with an MIT-licensed MCP server. |
 
 ---
 
